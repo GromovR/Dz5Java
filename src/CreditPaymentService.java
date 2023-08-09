@@ -6,7 +6,7 @@ public class CreditPaymentService {
         float result;
         float result2;
         float a = (float) Math.pow((1 + pro2), month);
-        result = pro2 * a / (a - 1) ;
+        result = pro2 * a / (a - 1);
         result2 = money * result;
         return (int) result2;
 
